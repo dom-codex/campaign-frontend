@@ -9,11 +9,14 @@ body {
   background-image: url("./images/protest.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
+  min-width: 300px;
 }
 main {
   background-image: linear-gradient(#041331f5, #3c715fe5);
   padding-bottom: 18px;
   height: 100vh;
+  padding: 12px;
+  overflow-x: hidden;
 }
 img {
   border-radius: 50%;
@@ -130,4 +133,13 @@ button:hover {
 }
 .gene {
   display: none;
+}
+.name_cont,
+.img_up_cont {
+  display: inline-block;
+  position: relative;
+}
+.name_cont label,
+.img_up_cont label {
+  position: relative;
 }
