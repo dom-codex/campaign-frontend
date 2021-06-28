@@ -34,7 +34,7 @@ const upload = (file, name) => {
   const formData = new FormData();
   formData.append("img", file);
   formData.append("name", name);
-  fetch("http://localhost:4500/generate/flyer", {
+  fetch("https://sug-campaign.herokuapp.com/generate/flyer", {
     method: "post",
     body: formData,
   })
