@@ -101,7 +101,7 @@ img {
   text-align: center;
 }
 .input_section input {
-  width: 280px;
+  width: 189px;
   height: 36px;
   padding-left: 5px;
   border-radius: 3px;
@@ -142,4 +142,5 @@ button:hover {
 .name_cont label,
 .img_up_cont label {
   position: relative;
+  left: 46px;
 }
